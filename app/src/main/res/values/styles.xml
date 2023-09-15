@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <!-- ActionBar style -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Status bar color (for Android 5.0 and above) -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Text appearance -->
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <!-- Toolbar style -->
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style>
+
+    <style name="low_elevation_card" parent="CardView">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+</resources>
